@@ -1,0 +1,175 @@
+*{
+margin:0;
+padding:0;	
+font-family: 'Lato', sans-serif;	
+}
+
+.header1{
+	position: fixed;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 67px;
+	background:#fff;
+	z-index:10;
+	border-bottom:2px solid #ccc;
+}
+
+.header1 a{
+	color: gray;
+	text-transform:uppercase;
+	text-decoration: none;
+	border-bottom:2px solid #555;
+	padding:25px 30px;
+	margin-right: 10px;
+	margin-left:-10px;
+	float: right;
+	font-size: 14px;
+	font-weight:300;
+	
+}
+
+
+/* css for register page*/
+
+input,textarea,select{ outline:none;}
+
+
+.material{
+	margin: 50px 280px;
+	height:auto;
+	padding:20px;
+
+
+}
+.material hr{
+	margin-top:80px;
+	border:none;
+	height:2px;
+	background:#ccc;
+}
+.material p{
+
+	font-weight:500;
+	font-size:12px;
+	padding:10px 15px;
+	background:#bbb;
+	border-radius: 20px;
+	margin:-18px 300px;
+	color:#555;
+}
+
+#errMsg{
+	position:absolute;
+	top:230px;
+	left:390px;
+	padding:0;
+	background:#ff5151;
+	border-radius: 2px;
+	color:white;
+	margin:-18px 200px;
+}
+.material span{
+	
+	padding-right:258px;
+	font-size:12px;
+	color:#ee0000;
+	visibility:hidden;
+}
+.material input,textarea,select{
+	font-size:15px;
+	width:340px;
+	height:30px;
+	padding: 10px 0px 10px 20px;
+	border-radius: 3px;
+	border:1px solid #ddd;
+	background:#f5f5f5;
+	margin:10px 3px;
+
+}
+select{
+	height:52px;
+	width:360px;
+}
+select option{
+	height:30px;
+}
+#submit{
+	outline:none;
+	border:none;
+	width:250px;
+	margin-left:300px;
+	color:white;
+	background: #13bda1;
+	height:50px;
+	cursor:pointer;
+	transition:background 0.2s ease-in-out;
+}
+#submit:hover{
+	background:#0c7664;
+}
+#reset{
+	
+	font-size:16px;
+	color: #13bda1;
+	outline:none;
+	background:none;
+	border:none;
+	cursor:pointer;
+	margin:0 60px;
+}
+#reset:hover{
+	color:#0c7664;
+}
+#showMessage{
+	position:fixed;
+	top:100px;
+	right:50px;
+	border-radius:2px;
+	background:#11dd11;
+	color:white;
+	
+}
+
+/* css for view pwtient directory */
+
+.showData{
+	
+	margin:150px 100px;
+}
+.showData table{
+	width:100%;
+	border-collapse: collapse;
+}
+.showData table tr{
+	border-bottom:1px solid #ddd;
+}
+.showData table tr td{
+	font-size:14px;
+	padding:20px 0px;
+	color:#777;	
+	background:white;
+	}
+.showData table tr td label{
+	color:#555;
+	font-weight:600;
+	}
+.showData table tr td:nth-child(1){width:80px;}
+.showData table tr td:nth-child(2){font-weight:600;color:black;}
+
+
+#srch{
+	padding:12px;
+	width:300px;
+	border:1px solid #ddd;
+	margin-top:12px;
+	margin-left: 600px;	
+
+}
+.header1 label{
+	padding:5px;
+	margin-left:-40px;
+	height:34px;
+	font-size:20px;
+	color:#ccc;
+}
